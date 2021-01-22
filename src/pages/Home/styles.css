@@ -1,0 +1,22 @@
+.pagination {
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+  /* border: 1px solid red; */
+}
+
+.pagination > li > a {
+  padding: 0.2em;
+  font-size: 25px;
+  font-weight: bold;
+  color: #2e294e;
+}
+
+.pagination > li > a:hover {
+  color: #d07373;
+}
+
+.prev-page > img,
+.next-page > img {
+  width: 40px;
+}
