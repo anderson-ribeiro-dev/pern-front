@@ -4,7 +4,7 @@ import { getToken } from "../services/auth";
 const api = axios.create({
   // baseURL: process.env.REACT_APP_URL_API,
   // baseURL: "http://localhost:8081/",
-  baseURL: "3.80.149.68:443",
+  baseURL: "https://api.rsapro.com.br/",
 });
 
 api.interceptors.request.use(async (config) => {
